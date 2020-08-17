@@ -1,0 +1,72 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx} % Comandos para manejar imágenes
+\graphicspath{ {./images/} } % Carpeta de imágenes
+\usepackage[table,xcdraw]{xcolor}
+\setlength{\parskip}{2mm} % Espaciado
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+    \geometry{left=3cm,right=2cm,top=2cm,bottom=2cm}
+%
+\usepackage[spanish]{babel}
+%
+\usepackage[fixlanguage]{babelbib}
+    \bibliographystyle{babunsrt}
+%
+
+\usepackage{floatrow}
+\floatsetup[table]{style=plaintop}
+
+\usepackage{url}
+
+\usepackage[top=2cm, bottom=2.5cm, right=3 cm, left=3 cm]{geometry} % margenes
+
+\usepackage{parskip} % Sangria
+
+\title{Informe XX \textbf{Lab}oratorio de Máquinas: nombre de la experiencia}
+\author{Nombre y Apellidos$^{1}$\\
+\small{$^{1}$Escuela de Ingeniería Mecánica}\\
+\small{Pontificia Universidad Católica de Valparaíso}\\
+\small{cristobal.galleguillos@pucv.cl}
+}
+\date{\small{\today}}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+
+Breve descripción de no más de tres párrafos sobre lo que se realizó, observó o investigó. 
+
+Debe indicar siempre el objetivo general (la pregunta que quiere responder) y al menos dos y máximo cinco objetivos específicos (como responderá esa pregunta)
+
+
+\section{Revisión de la literatura}
+
+Dependiendo del tipo de informe debe considerar incluir acá las ecuaciones, fundamentación teórica de su trabajo y otros ejemplos relacionados con su trabajo (informe técnico).
+
+Si es un informe ejecutivo, puede hacer referencias a otros estudios, recortes de prensa o artículos de opinión.
+
+La extensión de este apartado no debiese ser mas de una página, considerando que todo está debidamente referenciado.
+
+\section{Desarrollo}
+
+Con un desarrollo secuencial y lógico de cada uno de los objetivos específicos, busca una respuesta a la pregunta inicial del informe, usa gráficos, tablas, desarrolla ecuaciones o usa ejemplos, siempre indicando la referencia.
+
+Dependiendo de los gráficos obtenidos la extensión podría ser máximo unas cinco páginas.
+
+Los datos son anexos y se entregan tal como los entregamos a ustedes, en un archivo de preferencia plano, y se sube al repositorio.
+
+\section{Conclusiones}
+
+¿Se respondio la pregunta principal?¿Qué desviaciones?¿Que propone?
+
+Se evaluará mucho su juicio critico.
+
+\nocite{*}
+    \bibliography{src/ref}
+
+\end{document}
